@@ -1,0 +1,41 @@
+// Connect fonts
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+
+// Base bloks
+@import './base/reset';
+@import './base/vars';
+
+// Components
+@import './blocks/header';
+@import './blocks/main';
+@import './blocks/home';
+@import './blocks/services';
+@import './blocks/repeats';
+@import './blocks/probeg';
+@import './blocks/accessories';
+@import './blocks/links';
+@import './blocks/footer';
+
+// Styles
+body {
+    background-color: var(--white);
+    font-family: var(--second-family);
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 400;
+    min-height: 100%;
+    background: url(./img/banner_new.webp) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+// Tech.classes
+._container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+}

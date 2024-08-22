@@ -1,0 +1,36 @@
+.links,
+.links__top {
+    display: flex;
+}
+
+.links {
+    color: var(--black);
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--light-white);
+    padding: 50px 5px;
+}
+
+.links__top {
+    gap: 100px;
+}
+
+.links__title {
+    color: grey;
+}
+
+.links__top a {
+    font-weight: 600;
+}
+
+.links__bottom {
+    display: flex;
+    gap: 15px;
+}
+
+@media (max-width: 1274px) {
+    .links__top {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}

@@ -1,0 +1,33 @@
+.home,
+.home__top, 
+.home__bottom {
+    display: flex;
+}
+
+.home {
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.home__top, 
+.home__bottom {
+    position: relative;
+}
+
+.home__top {
+    top: 15px;
+}
+
+.accent {
+    font-weight: bold;
+}
+
+.home__bottom {
+    font-size: 30px;
+    bottom: 150px;
+    text-transform: uppercase;
+    word-spacing: 5px;
+}
